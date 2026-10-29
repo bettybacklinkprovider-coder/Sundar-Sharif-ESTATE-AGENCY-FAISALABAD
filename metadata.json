@@ -1,6 +1,8 @@
 {
-  "name": "DreamHome | Luxury Real Estate",
+  "name": "Sundar Sharif ESTATE AGENCY · FAISALABAD",
   "description": "Curating an elite portfolio of bespoke architectural estates, prime waterfront villas, and iconic penthouses across the world's most desirable destinations.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }

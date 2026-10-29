@@ -1,3 +1,9 @@
+import avatarHasnainShah from '../assets/images/avatar_hasnain_shah_1793275900960.jpg';
+import avatarTayyabTariq from '../assets/images/avatar_tayyab_tariq_1793275902700.jpg';
+import avatarSaqibSaleem from '../assets/images/avatar_saqib_saleem_1793275902736.jpg';
+
+export { avatarHasnainShah, avatarTayyabTariq, avatarSaqibSaleem };
+
 export interface Property {
   id: string;
   title: string;
@@ -59,7 +65,7 @@ export const GOOGLE_REVIEWS: GoogleReview[] = [
     rating: 5,
     text: 'Provides good and professional services in real estate.',
     likes: 1,
-    avatar: '/src/assets/images/avatar_hasnain_shah_1793275900960.jpg',
+    avatar: avatarHasnainShah,
   },
   {
     id: 'tayyab-tariq',
@@ -69,7 +75,7 @@ export const GOOGLE_REVIEWS: GoogleReview[] = [
     rating: 5,
     text: 'Awesome',
     likes: 1,
-    avatar: '/src/assets/images/avatar_tayyab_tariq_1793275902700.jpg',
+    avatar: avatarTayyabTariq,
   },
   {
     id: 'muhammad-saqib-saleem',
@@ -79,7 +85,7 @@ export const GOOGLE_REVIEWS: GoogleReview[] = [
     rating: 3,
     text: "It's Ok, But Unprofessional Behavior, Like A Lay Man.",
     likes: 1,
-    avatar: '/src/assets/images/avatar_saqib_saleem_1793275902736.jpg',
+    avatar: avatarSaqibSaleem,
   },
 ];
 

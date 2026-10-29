@@ -12,6 +12,9 @@ import {
   HERO_IMAGE,
   ABOUT_IMAGE,
   CTA_VILLA_IMAGE,
+  avatarHasnainShah,
+  avatarTayyabTariq,
+  avatarSaqibSaleem,
   Property,
   GoogleReview,
 } from './data/properties';
@@ -33,7 +36,7 @@ const EXTRA_REVIEWS: GoogleReview[] = [
     rating: 4,
     text: 'Good options for residential plots and houses in Amin Town and Canal Road Faisalabad.',
     likes: 2,
-    avatar: '/src/assets/images/avatar_hasnain_shah_1793275900960.jpg',
+    avatar: avatarHasnainShah,
   },
   {
     id: 'usman-ghani',
@@ -43,7 +46,7 @@ const EXTRA_REVIEWS: GoogleReview[] = [
     rating: 1,
     text: 'Visited their office in Amin Town for rental inquiry.',
     likes: 0,
-    avatar: '/src/assets/images/avatar_saqib_saleem_1793275902736.jpg',
+    avatar: avatarSaqibSaleem,
   },
 ];
 
@@ -216,7 +219,7 @@ export default function App() {
       rating: newReviewRating,
       text: newReviewText.trim(),
       likes: 0,
-      avatar: '/src/assets/images/avatar_tayyab_tariq_1793275902700.jpg',
+      avatar: avatarTayyabTariq,
     };
     setUserReviews((prev) => [created, ...prev]);
     setNewReviewAuthor('');
